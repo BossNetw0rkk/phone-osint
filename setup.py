@@ -3,15 +3,15 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='ignorant',
+    name='POsint',
     version="1.2",
     packages=find_packages(),
-    author="megadose",
-    author_email="megadose@protonmail.com",
+    author="BossNetworkk",
+    author_email="bossnetworrkk@gmail.com",
     install_requires=["termcolor","bs4","httpx","trio","argparse","tqdm"],
-    description="ignorant allows you to check if a phone is used on different sites like snapchat.",
+    description="Bir nece sosyal mediada nomrenin varligini yoxlamaq.",
     include_package_data=True,
-    url='http://github.com/megadose/ignorant',
+    url='http://github.com/megadose/phone-osint',
     entry_points = {'console_scripts': ['ignorant = ignorant.core:main']},
     classifiers=[
         "Programming Language :: Python",
